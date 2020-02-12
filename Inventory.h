@@ -5,6 +5,10 @@
 using std::string;
 using std::ostream;
 
+/*
+Contains variables to hold the name, price, and whether or not a
+particular item is within the inventory.
+*/
 class Inventory
 {
   private:
