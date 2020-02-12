@@ -20,10 +20,10 @@ Sells a single item in the inventory
 */
 void Inventory::sell()
 {
-  if (m_instock <= 0) {
+  if (item.m_instock <= 0) {
     cout << "No more in stock" << endl;
   } else {
-    m_in_stock--;
+    item.m_in_stock--;
   }
 }
 
