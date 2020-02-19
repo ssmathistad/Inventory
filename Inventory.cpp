@@ -4,7 +4,9 @@
 
 using std::string;
 using std::ostream;
-
+using std::cin;
+using std::cout;
+using std::endl;
 /*
 The Inventory function takes a new item into the inventory
 */
@@ -20,10 +22,10 @@ Sells a single item in the inventory
 */
 void Inventory::sell()
 {
-  if (item.m_instock <= 0) {
+  if (m_in_stock <= 0) {
     cout << "No more in stock" << endl;
   } else {
-    item.m_in_stock--;
+    m_in_stock--;
   }
 }
 
